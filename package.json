@@ -5,8 +5,7 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "lint": "eslint .",
-    "test": "jest --coverage --passWithNoTests"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
