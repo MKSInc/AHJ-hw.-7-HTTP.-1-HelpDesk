@@ -1,2 +1,2 @@
 // eslint-disable-next-line no-console
-console.log('main.js run');
+console.log('main.js run. Test.');
