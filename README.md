@@ -14,7 +14,7 @@
 
 ---
 
-## 7.1 HelpDesk
+## 7.1 HelpDesk (Frontend, [Backend](https://github.com/MKSInc/AHJ-hw.-7-HTTP.-1-HelpDesk-Backend))
 
 ### Легенда
 
