@@ -15,5 +15,53 @@
 <body>
   <h1>7. Домашнее задание к лекции «Работа с HTTP»</h1>
   <h2>7.1 HelpDesk</h2>
+  <div class="container">
+    <form class="form" name="createTicket">
+      <label class="form__row">
+        <span class="form__prop">Name</span>
+        <input class="form__value" type="text" name="name" required>
+      </label>
+
+      <label class="form__row">
+        <span class="form__prop">Description</span>
+        <textarea class="form__value" rows="3" name="description"></textarea>
+      </label>
+
+      <div class="form__row">
+        <span class="form__prop">Status</span>
+        <label class="form__value_radio">
+          <input type="radio" name="status" value="todo" checked>
+          <span>Todo</span>
+        </label>
+        <label>
+          <input type="radio" name="status" value="done">
+          <span>Done</span>
+        </label>
+      </div>
+
+      <hr class="form__row">
+
+      <div class="form__row">
+        <button class="form__btn form__btn-send">Send</button>
+      </div>
+    </form>
+
+    <form class="form">
+      <label class="form__row">
+        <span class="form__prop">Ticket ID</span>
+        <input class="form__value form__value-ticket-ID" type="text" name="id">
+      </label>
+
+      <div class="form__row">
+        <button class="form__btn form__btn-get-by-id" value="ticketById">Get by ID</button>
+      </div>
+
+      <hr class="form__row">
+
+      <div class="form__row">
+        <button class="form__btn form__btn-get-all-tickets">Get all tickets</button>
+      </div>
+    </form>
+  </div>
 </body>
 </html>
